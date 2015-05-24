@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Core", "ImageResizer.Core\ImageResizer.Core.csproj", "{6E8BFF7A-A5E8-42CF-AC35-A2C6E30B1927}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic", "Business Logic", "{3C5EEFD6-AA38-4E4D-8C57-94D4E06B3948}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{92812105-4E21-4BF7-A188-0C39FBEA0729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Core.UnitTests", "ImageResizer.Core.UnitTests\ImageResizer.Core.UnitTests.csproj", "{0CC085AD-9AB9-44E3-B364-6810D127089E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E8BFF7A-A5E8-42CF-AC35-A2C6E30B1927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8BFF7A-A5E8-42CF-AC35-A2C6E30B1927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8BFF7A-A5E8-42CF-AC35-A2C6E30B1927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8BFF7A-A5E8-42CF-AC35-A2C6E30B1927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC085AD-9AB9-44E3-B364-6810D127089E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC085AD-9AB9-44E3-B364-6810D127089E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC085AD-9AB9-44E3-B364-6810D127089E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC085AD-9AB9-44E3-B364-6810D127089E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E8BFF7A-A5E8-42CF-AC35-A2C6E30B1927} = {3C5EEFD6-AA38-4E4D-8C57-94D4E06B3948}
+		{0CC085AD-9AB9-44E3-B364-6810D127089E} = {92812105-4E21-4BF7-A188-0C39FBEA0729}
+	EndGlobalSection
+EndGlobal
