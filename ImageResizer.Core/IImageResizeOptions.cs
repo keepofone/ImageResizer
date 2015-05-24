@@ -6,14 +6,22 @@
 	public interface IImageResizeOptions
 	{
 		/// <summary>
-		/// Maximum width of an image.
+		/// Quality of the resulting image.
+		/// </summary>
+		Quality Quality
+		{
+			get;
+			set;
+		}
+		/// <summary>
+		/// Maximum width of a resized image.
 		/// </summary>
 		int MaxWidth
 		{
 			get;
 		}
 		/// <summary>
-		/// Maximum height of an image.
+		/// Maximum height of a resized image.
 		/// </summary>
 		int MaxHeight
 		{
